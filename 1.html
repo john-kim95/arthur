@@ -7,10 +7,19 @@
 </head>
 
 <body>
-  <h1><strong>Saint Denis Times 한글</strong></h1>
-  <h2><strong>Health Checker</strong></h2>
+  <h1 align="middle"><strong>Saint Denis Times</strong></h1>
+  <h2 align="middle"><strong>what am I supposed to do?</strong></h2>
 
   This is the test<br>
+
+  <p>
+    <iframe width="450" height="240" src="https://www.youtube.com/embed/mck6Qe262JU" frameborder="1" align="right" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--<iframe width="640" height="360" src="https://www.youtube.com/watch?v=mck6Qe262JU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     유튜브 링크에 .com/embed/~~ 이런 식으로 적어야 재생가능, watch하면 재생불가-->
+  </p>
+
+
+
   <div>
     <a tabindex="2" accesskey="1" href="https://web-n.github.io/web1_html_internet/">
       <p style="float:left; margin-top:1px;"><img src="ar.jpg" width="150" height="150"></p>
@@ -25,6 +34,13 @@
   the rendered page.<br>
   </p>
   <br>
+
+  <p>
+    <iframe width="450" height="240" src="https://www.youtube.com/embed/7OnDwm_B1K8" frameborder="1" align="right" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!--<iframe width="640" height="360" src="https://www.youtube.com/watch?v=mck6Qe262JU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     유튜브 링크에 .com/embed/~~ 이런 식으로 적어야 재생가능, watch하면 재생불가-->
+  </p>
 
   <ul>
   <strong>
@@ -45,12 +61,50 @@
   </ol>
 
 
-  <h2 class="logo">
+  <h3 class="logo">
     <a target="_blank" tabindex="2" accesskey="1" href="https://www.w3.org/TR/html5/" title="새 창" >
       <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png" width="90" height="53" alt="W3C" />
     </a>
     <span class="alt-logo">W3C</span>
     이 이미지는 페이지 새 창, 페이지 이동<br>
-  </h2>
+  </h3>
+
+  <!--이하 댓글 창 생성  disqus 라는 백엔드 기술임-->
+  <p>
+    <div id="disqus_thread"></div>
+    <script>
+
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://rdr2.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </p>
+      <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5dccd597d96992700fc7590e/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 </html>
